@@ -1,0 +1,14 @@
+{
+    "name": "Ceyl0n/mask-libphonenumber",
+    "description": "Создание маски ввода (text-mask/text-mask) для телефоных номеров (google/libphonenumber)",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ceyl0n",
+            "email": "ceyl0n@yandex.ru"
+        }
+    ],
+    "require": {
+        "giggsey/libphonenumber-for-php": "^8.11"
+    }
+}

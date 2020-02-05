@@ -1,0 +1,12 @@
+Options All -ExecCGI -Indexes -Includes +FollowSymLinks
+ServerSignature Off
+AddDefaultCharset utf-8
+AddEncoding gzip .gz
+DirectoryIndex index.php
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . index.php
+</IfModule>
